@@ -29,7 +29,7 @@ Add `IncludeOptional sites-enabled/*.conf` line at the end of the file<br />
     ServerAlias e-xpert.pl
     DocumentRoot /var/www/e-xpert.pl/public_html
     ErrorLog /var/www/e-xpert.pl/error.log
-    CustomLog /var/www/example.com/requests.log combined
+    CustomLog /var/www/e-xpert.pl/requests.log combined
 </VirtualHost>
 ```
 <br />
