@@ -34,5 +34,5 @@ Add `IncludeOptional sites-enabled/*.conf` line at the end of the file<br />
 ```
 <br />
 
-`sudo ln -s /etc/httpd/sites-available/example.com.conf /etc/httpd/sites-enabled/example.com.conf`
-`sudo apachectl restart`
+`sudo ln -s /etc/httpd/sites-available/e-xpert.pl.conf /etc/httpd/sites-enabled/e-xpert.pl.conf`<br />
+`sudo apachectl restart`<br />
