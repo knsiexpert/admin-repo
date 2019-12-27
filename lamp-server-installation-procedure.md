@@ -11,7 +11,7 @@
 `sudo yum install php php-mysql`<br />
 `sudo systemctl restart httpd.service`<br />
 
-### Setting up directory for e-xpert.pl
+### Setting up directory for e-xpert.pl / global permissions
 
 `sudo chmod -R 755 /var/www`<br />
 `sudo mkdir -p /var/www/e-xpert.pl/public_html`<br />
@@ -39,3 +39,6 @@
 <br />
 
 `sudo apachectl restart`<br />
+
+### Fixing SELinux permission issue preventing httpd service from getting append/read access to x file
+`sudo setsebool -P httpd_unified 1`
